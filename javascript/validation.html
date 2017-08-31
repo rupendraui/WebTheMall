@@ -1,0 +1,79 @@
+<html>
+<head>
+<script type="text/javascript" src="validation.js">
+</script>
+<style type="text/css">
+i{color:red; display:block;}</style>
+</head>
+<body>
+<form id="form1" action="saveuser.php" method="POST" >
+	<table align="center" cellspacing="7">
+		<caption><h2>Form Validation</h2></caption>
+		<tr>
+			<th>Full Name</th>
+			<td>
+				<input type="text" id="fname"/>
+				<i id="nameerror"></i>
+			</td>
+		</tr>
+		<tr>
+			<th>Mobile No</th>
+			<td>
+				<input type="text" id="mobile" maxlength="10"/>
+				<i id="mobileerror"></i>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<th>City</th>
+			<td>
+			<select id="city">
+				<option value="">Choose City</option>
+				<option value="1">Delhi</option>
+				<option value="2">Banglore</option>
+				<option value="3">Pune</option>
+				<option value="4">Mumbai</option>
+			</select>
+				<i id="cityerror"></i>
+			</td>
+		</tr>
+		<tr>
+			<th>Address</th>
+			<td>
+				<textarea rows="4" cols="10" id="address"></textarea>
+				<i id="addresserror"></i>
+			</td>
+		</tr>
+		<tr>
+			<th>Gender</th>
+			<td>
+				<input type="radio" id="m" name="gender"/>Male
+				<input type="radio" id="f" name="gender"/>Female
+				<i id="gendererror"></i>
+			</td>
+		</tr>
+		<tr>
+			<th>File Upload</th>
+			<td> <input type="file" id="file"/>
+				<i>Upload Only jpg File</i>
+				<i id="fileerror"></i></td>
+		</tr>
+		<tr>
+			
+			<td>
+				
+				<input type="checkbox" id="cnd" name="cnd" value="Agree"/>Agree on T&C.
+				<i id="cnderror"></i>
+			</td>
+		</tr>
+			<th colspan="2">
+				<button type="button" onclick="pagetest()">Register</button>
+				<button type="reset">Clear Form</button>
+			</th>
+			
+		</tr>
+		
+	</table>
+</form></body>
+</html>

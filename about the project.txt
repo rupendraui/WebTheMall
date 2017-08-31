@@ -1,0 +1,29 @@
+This is the project about the description of a mall and the brand of that mall.
+
+about home-> home consists a tabbar with carousel images and following the different events in the THE MALL.
+
+about-> this page has three subcategories which includes brand story, a new mall and news .
+
+these all three pages consists the different paatern of design like in brand story i have used panel and under that panel foloowing the bootstrap column method.
+
+and in new mall i have used panel but insise that panel i hav eused carousel.
+
+and in new s again i have followed the same pattern as in brand story but this includes only pics 
+
+now coming to the shop's which tells you about the different level of the mall and which shop is there in which level.
+
+when you click the level it will give you the list of the shops which is present in that level.
+
+now food  which icludes the food court details which will give information about the  food counter details.
+
+last is contact which will  you to get feedback from the user about the  THE MALL.
+
+and their is a form also which includes the validation using javascript.
+
+to run the project you need to maintain all the files in a single folder so that each page will run accurately.
+
+thanks.
+
+Regards,
+ Rupendra Singh.
+
